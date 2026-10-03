@@ -1,0 +1,50 @@
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
+  theme: {
+    extend: {
+      colors: {
+        white: 'rgb(var(--text-primary-rgb) / <alpha-value>)',
+        black: 'rgb(var(--background-rgb) / <alpha-value>)',
+        night: 'var(--background)',
+        navy: 'var(--background-secondary)',
+        slateSoft: 'var(--text-secondary)',
+        slate: {
+          50: 'rgb(var(--text-primary-rgb) / <alpha-value>)',
+          100: 'rgb(var(--text-primary-rgb) / <alpha-value>)',
+          200: 'rgb(var(--text-secondary-rgb) / <alpha-value>)',
+          300: 'rgb(var(--text-secondary-rgb) / <alpha-value>)',
+          400: 'rgb(var(--text-secondary-rgb) / <alpha-value>)',
+          500: 'rgb(var(--text-muted-rgb) / <alpha-value>)',
+          600: 'rgb(var(--text-muted-rgb) / <alpha-value>)',
+          700: 'rgb(var(--border-rgb) / <alpha-value>)',
+          800: 'rgb(var(--surface-elevated-rgb) / <alpha-value>)',
+          900: 'rgb(var(--surface-rgb) / <alpha-value>)',
+          950: 'rgb(var(--background-rgb) / <alpha-value>)',
+        },
+        cyan: 'rgb(var(--accent-rgb) / <alpha-value>)',
+        sky: 'rgb(var(--accent-rgb) / <alpha-value>)',
+        blue: 'rgb(var(--accent-rgb) / <alpha-value>)',
+        indigo: 'rgb(var(--accent-secondary-rgb) / <alpha-value>)',
+        violet: 'rgb(var(--accent-secondary-rgb) / <alpha-value>)',
+        purple: 'rgb(var(--accent-secondary-rgb) / <alpha-value>)',
+        emerald: 'rgb(var(--status-success-rgb) / <alpha-value>)',
+        teal: 'rgb(var(--accent-secondary-rgb) / <alpha-value>)',
+        amber: 'rgb(var(--accent-secondary-rgb) / <alpha-value>)',
+        orange: 'rgb(var(--accent-secondary-rgb) / <alpha-value>)',
+        rose: 'rgb(var(--accent-secondary-rgb) / <alpha-value>)',
+        red: 'rgb(var(--status-error-rgb) / <alpha-value>)',
+        yellow: 'rgb(var(--accent-secondary-rgb) / <alpha-value>)',
+        royal: 'var(--accent-secondary)',
+      },
+      boxShadow: {
+        glow: 'var(--glow)',
+      },
+      fontFamily: {
+        sans: ['Inter', 'sans-serif'],
+        display: ['Space Grotesk', 'sans-serif'],
+      },
+    },
+  },
+  plugins: [],
+}

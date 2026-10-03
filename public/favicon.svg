@@ -1,0 +1,11 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Shivaraj PM logo">
+  <defs>
+    <linearGradient id="g" x1="0%" x2="100%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#00d9ff" />
+      <stop offset="100%" stop-color="#4f46e5" />
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="18" fill="#05070D"/>
+  <path d="M19 46V18h9.5c8.3 0 13.5 5 13.5 13.4S36.8 44.8 28.5 44.8H19zm9.7-8.7h1.8c4.5 0 7.2-2.9 7.2-7.2 0-4.4-2.7-7.5-7.2-7.5h-1.8v14.7z" fill="url(#g)"/>
+  <path d="M36 46V18h8.7v28H36z" fill="#f8fbff" fill-opacity="0.9"/>
+</svg>
